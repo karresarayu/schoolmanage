@@ -8,6 +8,7 @@ import {
 const REACT_APP_BASE_URL = "hhttp://localhost:5000";
 
 
+
 export const getAllNotices = (id, address) => async (dispatch) => {
     dispatch(getRequest());
 
