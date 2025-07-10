@@ -5,7 +5,7 @@ import {
     getFailed,
     getError
 } from './complainSlice';
-const REACT_APP_BASE_URL = "https://schoolmanage-backend.onrender.com";
+const REACT_APP_BASE_URL = "http://localhost:5000";
 
 
 export const getAllComplains = (id, address) => async (dispatch) => {

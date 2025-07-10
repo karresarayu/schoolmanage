@@ -5,7 +5,7 @@ import {
     getFailed,
     getError
 } from './noticeSlice';
-const REACT_APP_BASE_URL = "https://schoolmanage-backend.onrender.com";
+const REACT_APP_BASE_URL = "hhttp://localhost:5000";
 
 
 export const getAllNotices = (id, address) => async (dispatch) => {
