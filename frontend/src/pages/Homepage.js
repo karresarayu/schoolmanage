@@ -26,6 +26,8 @@ const Homepage = () => {
                             Seamlessly track attendance, assess performance, and provide feedback.
                             Access records, view marks, and communicate effortlessly.
                         </StyledText> */}
+
+
                         <StyledBox>
                             <StyledLink to="/choose">
                                 <LightPurpleButton variant="contained" fullWidth>
